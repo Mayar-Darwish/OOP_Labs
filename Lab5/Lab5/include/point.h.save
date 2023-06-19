@@ -1,0 +1,30 @@
+#ifndef POINT_H
+#define POINT_H
+
+
+class point
+{
+    public:
+
+        int x;
+        int y;
+
+
+        point()
+        {
+            x=2;
+            y=3;
+
+        };
+        point (int X, int Y )
+        {
+         
+        };
+        virtual ~point();
+
+    protected:
+
+    private:
+};
+
+#endif // POINT_H

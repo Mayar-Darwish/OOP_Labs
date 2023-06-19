@@ -1,0 +1,32 @@
+#ifndef CIRCLE_H
+#define CIRCLE_H
+#include "shape.h"
+#include <iostream>
+using namespace std;
+
+
+class circle : public shape
+{
+public:
+    circle() {}
+
+    circle(int radius1)
+    {
+        Dim1=radius1;
+        Dim2=radius1;
+
+    }
+
+    GitArea()
+    {
+     int result= Dim1 * Dim2 * 3.14;
+           // return result;
+    cout << "area from circle" << result <<endl;
+    }
+
+protected:
+
+private:
+};
+
+#endif // CIRCLE_H

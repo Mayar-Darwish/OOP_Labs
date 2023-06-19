@@ -1,0 +1,133 @@
+#include <iostream>
+
+using namespace std;
+/*
+class fraction
+{
+private:
+
+    int nemenator;
+    int denemenator;
+
+public:
+    fraction (int Nem)
+    {
+        nemenator=Nem;
+        setDenemenator(4);
+
+    }
+
+    fraction (int Nem, int Dem)
+    {
+        nemenator =Nem;
+        denemenator=Dem;
+
+    }
+    fraction()
+    {
+
+
+    }
+
+
+
+    void setNemenator (int nem)
+    {
+        nemenator=nem;
+    }
+
+    void setDenemenator (int dem)
+    {
+
+        denemenator=dem;
+
+    }
+
+    int getDenemenator()
+    {
+        return this->denemenator ;
+
+    }
+
+    int getNemenator()
+    {
+        return this->nemenator ;
+
+    }
+
+    void Display()
+    {
+        cout <<getNemenator() <<"/" << getDenemenator() <<"\n";
+
+    }
+
+    fraction Add(fraction frac )
+    {
+
+        fraction result;
+
+        result.nemenator= denemenator * frac.nemenator +nemenator* frac.denemenator;
+
+        result.denemenator= denemenator * frac.denemenator;
+
+
+        return result;
+
+    }
+
+    findPower(int base,int power)
+    {
+       if(power == 0)
+        return 1;
+       else
+        return (base * findPower(base,power-1));
+
+    }
+
+
+
+
+};
+
+
+
+int main()
+{
+
+    fraction f1(1);
+    fraction f2(3,4);
+    fraction f3;
+    fraction f4(2);
+
+    f1.setNemenator(1);
+    f1.setDenemenator(4);
+    cout<< f1.getNemenator() <<"\n" ;
+    cout<< f1.getDenemenator() <<"\n";
+    f1.Display();
+    f2.Display();
+
+    f3=f1.Add(f2);
+
+    f3.Display();
+
+    cout<< f4.findPower(2,10) <<"\n";
+
+    // cout<<f1.Add(f2);
+
+    return 0;
+}
+*/
+
+
+class parent
+{
+    protected:
+    int x;
+    
+    public:
+        parent(int a)
+        {
+            
+            
+        }
+};

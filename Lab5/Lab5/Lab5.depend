@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1673036758 source:d:\iti\oop\day5\lab5\lab5\main.cpp
+	<iostream>
+	"line.h"
+	"point.h"
+	"rectangle.h"
+	"shape.h"
+	"circle.h"
+	"square.h"
+
+1672306135 d:\iti\oop\day5\lab5\lab5\include\line.h
+	<bits/stdc++.h>
+	"point.h"
+
+1672302743 d:\iti\oop\day5\lab5\lab5\include\point.h
+
+1672304550 d:\iti\oop\day5\lab5\lab5\include\rectangle.h
+	<iostream>
+	"shape.h"
+
+1672304022 d:\iti\oop\day5\lab5\lab5\include\shape.h
+
+1672307500 d:\iti\oop\day5\lab5\lab5\include\circle.h
+	"shape.h"
+	<iostream>
+
+1672306320 d:\iti\oop\day5\lab5\lab5\include\square.h
+	<iostream>
+	"shape.h"
+	"rectangle.h"
+
